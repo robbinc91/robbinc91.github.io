@@ -1,4 +1,4 @@
-# Robin Christopherson's Portfolio
+# Robin's Portfolio
 
 Welcome to my technical portfolio. I am a developer and researcher with a specialized focus on **medical imaging, artificial intelligence, and 3D data processing**. My work primarily involves building deep learning models for brain MRI analysis, tissue segmentation, and 3D visualization.
 

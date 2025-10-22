@@ -16,6 +16,7 @@ Welcome to my technical portfolio. I am a developer and researcher with a specia
 | Project | Description | Technologies |
 | :--- | :--- | :--- |
 | **[MIPAIM-UNET](https://github.com/robbinc91/mipaim_unet)** | Several applications of UNet for 3D brain MRI segmentation | Python, TensorFlow, Keras, 3D CNN |
+| **[CNN vs. QCNN]([https://github.com/robbinc91/mipaim_unet](https://github.com/robbinc91/cnn_vs_qcnn_medical_imaging))** | Comparison of UNet and Quaternion-based UNet (QCNN) for Medical Image Segmentation | Python, TensorFlow, Keras, 3D CNN |
 
 ---
 

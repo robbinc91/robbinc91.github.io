@@ -1,216 +1,72 @@
-/* Custom styles for Robin's Portfolio */
-.portfolio-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333333;
-}
+/* Add these styles to your existing assets/css/style.css */
 
-.portfolio-header {
-    text-align: center;
-    margin-bottom: 40px;
-    padding: 30px 0;
-    border-bottom: 2px solid #e1e4e8;
-}
-
-.portfolio-header h1 {
-    color: #0366d6;
-    margin-bottom: 10px;
-    font-size: 2.5em;
-}
-
-.portfolio-header .subtitle {
-    font-size: 1.2em;
-    color: #586069;
-    font-weight: 300;
-}
-
-/* Section styling */
-.section {
-    margin: 40px 0;
-    padding: 20px 0;
-}
-
-.section h2 {
-    color: #0366d6;
-    border-bottom: 2px solid #e1e4e8;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-.section h3 {
-    color: #0366d6;
-    margin: 25px 0 15px 0;
-}
-
-/* Table styling */
-.portfolio-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background-color: #f6f8fa;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-table th {
-    background-color: #0366d6;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 15px;
-    text-align: left;
-}
-
-.portfolio-table td {
-    padding: 15px;
-    border: 1px solid #e1e4e8;
-    text-align: left;
-}
-
-.portfolio-table tr:nth-child(even) {
-    background-color: #fafbfc;
-}
-
-.portfolio-table tr:hover {
-    background-color: #e3f2fd;
-    transition: background-color 0.2s ease;
-}
-
-/* Project grid */
-.projects-grid {
-    margin: 20px 0;
-}
-
-.project-card {
-    background: #f6f8fa;
-    border: 1px solid #e1e4e8;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 15px 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.project-card h4 {
-    margin: 0 0 10px 0;
-    color: #0366d6;
-}
-
-.project-card a {
-    color: #0366d6;
-    text-decoration: none;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
-
-/* Tech stack */
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 15px 0;
-}
-
-.tech-category {
-    flex: 1;
-    min-width: 200px;
-    margin: 10px 0;
-}
-
-.tech-category h4 {
-    color: #0366d6;
-    margin-bottom: 8px;
-    font-size: 1em;
-}
-
-.tech-items {
+/* Tech badges in project cards */
+.tech-badges {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    margin: 10px 0;
 }
 
-.tech-item {
-    background: #0366d6;
-    color: white;
-    padding: 4px 8px;
+.tech-badges img {
+    height: 20px;
     border-radius: 4px;
-    font-size: 0.9em;
 }
 
-/* Connect section */
-.connect-links {
+/* Larger tech badges for technical stack */
+.tech-badges-large {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
-    margin: 30px 0;
+    gap: 10px;
+    margin: 10px 0;
 }
 
-.connect-link {
+.tech-badges-large img {
+    height: 24px;
+    border-radius: 4px;
+}
+
+/* Connect links with badges */
+.connect-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background: #0366d6;
     color: white;
     padding: 12px 20px;
     border-radius: 6px;
     text-decoration: none;
     transition: background-color 0.2s ease;
+    margin: 5px;
 }
 
-.connect-link:hover {
+.connect-links a:hover {
     background: #0256b9;
     text-decoration: none;
     color: white;
 }
 
-/* Stats section */
-.stats-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 30px 0;
+.connect-links img {
+    height: 20px;
+    border-radius: 3px;
 }
 
-/* Center alignment */
-.text-center {
-    text-align: center;
-}
-
-/* Status badges */
-.status-badge {
+/* Ensure badges don't break layout */
+.tech-badges img,
+.tech-badges-large img,
+.connect-links img {
     display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8em;
-    font-weight: bold;
+    border: none;
 }
 
-.status-active {
-    background: #d4edda;
-    color: #155724;
-}
-
-.status-research {
-    background: #fff3cd;
-    color: #856404;
-}
-
-/* Responsive design */
+/* Responsive adjustments for badges */
 @media (max-width: 768px) {
-    .portfolio-container {
-        padding: 10px;
+    .tech-badges-large {
+        gap: 6px;
     }
 
-    .portfolio-table {
-        font-size: 0.9em;
+    .tech-badges-large img {
+        height: 22px;
     }
 
     .connect-links {
@@ -218,7 +74,8 @@
         align-items: center;
     }
 
-    .tech-category {
-        min-width: 100%;
+    .connect-links a {
+        width: 200px;
+        justify-content: center;
     }
 }

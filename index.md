@@ -23,9 +23,9 @@ Welcome to my technical portfolio. I am a passionate developer and researcher sp
 <th>Tools & Technologies</th>
 </tr>
 <tr>
-<td>Brain MRI Processing<br>Tissue Segmentation<br>Disease Classification<br>Research & Development</td>
-<td>3D Convolutional Networks<br>Point Cloud Processing<br>Mesh Processing & Analysis<br>3D Visualization</td>
-<td>Python & PyTorch<br>TensorFlow & Keras<br>Docker<br>Medical Imaging Libraries</td>
+<td>🧠 Brain MRI Processing<br>🎯 Tissue Segmentation<br>📈 Disease Classification<br>🔬 Research & Development</td>
+<td>📊 3D Convolutional Networks<br>☁️ Point Cloud Processing<br>🔷 Mesh Processing & Analysis<br>🎮 3D Visualization</td>
+<td>🐍 Python & PyTorch<br>🔥 TensorFlow & Keras<br>📦 Docker & ONNX<br>🏥 Medical Imaging Libraries</td>
 </tr>
 </table>
 
@@ -38,21 +38,33 @@ Welcome to my technical portfolio. I am a passionate developer and researcher sp
 <div class="project-card">
 <h4><a href="https://github.com/robbinc91/mipaim_unet">MIPAIM-UNET</a></h4>
 <p>Advanced 3D UNet architectures for precise brain MRI segmentation with multiple clinical applications</p>
-<p><strong>Technologies:</strong> Python • TensorFlow • 3D CNN</p>
+<div class="tech-badges">
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
+</div>
 <span class="status-badge status-active">Active</span>
 </div>
 
 <div class="project-card">
 <h4><a href="https://github.com/robbinc91/cnn_vs_qcnn_medical_imaging">CNN vs. QCNN</a></h4>
 <p>Innovative comparison of traditional UNet vs Quaternion-based UNet for enhanced medical image segmentation</p>
-<p><strong>Technologies:</strong> Keras • Research • 3D CNN</p>
+<div class="tech-badges">
+<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
+<img src="https://img.shields.io/badge/Research-8B008B" alt="Research">
+<img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
+</div>
 <span class="status-badge status-research">Research</span>
 </div>
 
 <div class="project-card">
 <h4><a href="https://github.com/robbinc91/neuro_code_utils">Neuro Code Utils</a></h4>
 <p>Comprehensive toolkit for neuroscience deep learning applications - medical image processing & model conversion</p>
-<p><strong>Technologies:</strong> PyTorch • ANTsPy • ONNX</p>
+<div class="tech-badges">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy">
+<img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX">
+</div>
 <span class="status-badge status-active">Active</span>
 </div>
 
@@ -64,41 +76,41 @@ Welcome to my technical portfolio. I am a passionate developer and researcher sp
 
 <div class="tech-category">
 <h4>🤖 Deep Learning</h4>
-<div class="tech-items">
-<span class="tech-item">PyTorch</span>
-<span class="tech-item">TensorFlow</span>
-<span class="tech-item">Keras</span>
-<span class="tech-item">ONNX</span>
+<div class="tech-badges-large">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
+<img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX">
 </div>
 </div>
 
 <div class="tech-category">
 <h4>🏥 Medical Imaging</h4>
-<div class="tech-items">
-<span class="tech-item">NiBabel</span>
-<span class="tech-item">ANTsPy</span>
-<span class="tech-item">PyROBEX</span>
-<span class="tech-item">SciKit-Image</span>
+<div class="tech-badges-large">
+<img src="https://img.shields.io/badge/NiBabel-6A0DAD" alt="NiBabel">
+<img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy">
+<img src="https://img.shields.io/badge/PyROBEX-DC143C" alt="PyROBEX">
+<img src="https://img.shields.io/badge/SciKit--Image-F37626" alt="SciKit-Image">
 </div>
 </div>
 
 <div class="tech-category">
 <h4>🐍 Core Programming</h4>
-<div class="tech-items">
-<span class="tech-item">Python</span>
-<span class="tech-item">NumPy</span>
-<span class="tech-item">SciPy</span>
-<span class="tech-item">Pandas</span>
+<div class="tech-badges-large">
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy">
+<img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas">
 </div>
 </div>
 
 <div class="tech-category">
 <h4>🚀 Infrastructure</h4>
-<div class="tech-items">
-<span class="tech-item">Docker</span>
-<span class="tech-item">Git</span>
-<span class="tech-item">Linux</span>
-<span class="tech-item">Bash</span>
+<div class="tech-badges-large">
+<img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white" alt="Bash">
 </div>
 </div>
 
@@ -114,12 +126,24 @@ Welcome to my technical portfolio. I am a passionate developer and researcher sp
 ## 📫 Connect With Me
 
 <div class="connect-links">
-<a href="https://github.com/robbinc91" class="connect-link">GitHub</a>
-<a href="https://linkedin.com/in/robin-cabeza-ruiz-50575b113/" class="connect-link">LinkedIn</a>
-<a href="https://researchgate.net/profile/Robin-Cabeza-Ruiz" class="connect-link">ResearchGate</a>
-<a href="https://orcid.org/0000-0003-4719-8264" class="connect-link">ORCID</a>
-<a href="https://robbinc91.github.io" class="connect-link">Portfolio</a>
-<a href="mailto:robbinc91@gmail.com" class="connect-link">Email</a>
+<a href="https://github.com/robbinc91" class="connect-link">
+<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" style="vertical-align: middle;"> GitHub
+</a>
+<a href="https://linkedin.com/in/robin-cabeza-ruiz-50575b113/" class="connect-link">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn" style="vertical-align: middle;"> LinkedIn
+</a>
+<a href="https://researchgate.net/profile/Robin-Cabeza-Ruiz" class="connect-link">
+<img src="https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white" alt="ResearchGate" style="vertical-align: middle;"> ResearchGate
+</a>
+<a href="https://orcid.org/0000-0003-4719-8264" class="connect-link">
+<img src="https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white" alt="ORCID" style="vertical-align: middle;"> ORCID
+</a>
+<a href="https://robbinc91.github.io" class="connect-link">
+<img src="https://img.shields.io/badge/Portfolio-0366d6?logo=google-chrome&logoColor=white" alt="Portfolio" style="vertical-align: middle;"> Portfolio
+</a>
+<a href="mailto:robbinc91@gmail.com" class="connect-link">
+<img src="https://img.shields.io/badge/Email-28a745?logo=mail.ru&logoColor=white" alt="Email" style="vertical-align: middle;"> Email
+</a>
 </div>
 
 <div class="text-center">

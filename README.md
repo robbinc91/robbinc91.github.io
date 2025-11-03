@@ -23,7 +23,7 @@ Welcome to my technical portfolio. I am a developer and researcher with a specia
 
 ## 🛠️ Technical Stack
 
-**🤖 Deep Learning:** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white
+**🤖 Deep Learning:** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
 
 **🏥 Medical Imaging:** ![NiBabel](https://img.shields.io/badge/NiBabel-6A0DAD?style=flat&logo=python&logoColor=white) ![ANTsPy](https://img.shields.io/badge/ANTsPy-0077B6?style=flat&logo=brain&logoColor=white) ![PyROBEX](https://img.shields.io/badge/PyROBEX-DC143C?style=flat&logo=skull&logoColor=white) ![SciKit-Image](https://img.shields.io/badge/Scikit--Image-F37626?style=flat&logo=scikit-learn&logoColor=white)
 
@@ -60,61 +60,3 @@ Welcome to my technical portfolio. I am a developer and researcher with a specia
 ---
 
 *This portfolio is continuously updated with new projects and contributions to the field of medical AI.*
-
-<style>
-body {
-  background-color: #ffffff;
-  color: #333333;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #0366d6;
-  border-bottom: 1px solid #e1e4e8;
-  padding-bottom: 5px;
-}
-
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #005cc5;
-  text-decoration: underline;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: #f6f8fa;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-th {
-  background-color: #0366d6;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-td, th {
-  border: 1px solid #e1e4e8;
-  padding: 12px;
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: #fafbfc;
-}
-
-.projects-grid table {
-  box-shadow: 0 2px 4px rgba(3, 102, 214, 0.1);
-}
-
-.projects-grid tr:hover {
-  background-color: #e3f2fd;
-  transition: background-color 0.2s ease;
-}
-</style>

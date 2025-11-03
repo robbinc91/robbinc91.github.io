@@ -4,17 +4,26 @@ title: Robin's Portfolio
 description: AI Medical Imaging & 3D Data Processing Specialist
 ---
 
+<div class="portfolio-container">
+<div class="portfolio-header" markdown="1">
 
 # Robin's Portfolio
 
 Welcome to my technical portfolio. I am a developer and researcher with a specialized focus on **medical imaging, artificial intelligence, and 3D data processing**. My work primarily involves building deep learning models for brain MRI analysis, tissue segmentation, and 3D visualization.
+</div>
 
-## 🛠️ Technical Specializations
-
-- **Medical Imaging & AI**: Deep learning for brain MRI processing.
-- **3D Data Processing**: 3D Convolutional Neural Networks (CNNs), point cloud segmentation, and mesh processing.
-- **Programming & Tools**: Python, PyTorch, TensorFlow, Keras, Docker.
-
+<table class="portfolio-table">
+<tr>
+<th>Medical Imaging & AI</th>
+<th>3D Data Processing</th>
+<th>Tools & Technologies</th>
+</tr>
+<tr>
+<td>Brain MRI Processing<br>Tissue Segmentation<br>Disease Classification<br>Research & Development</td>
+<td>3D Convolutional Networks<br>Point Cloud Processing<br>Mesh Processing & Analysis<br>3D Visualization</td>
+<td>Python & PyTorch<br>TensorFlow & Keras<br>Docker <br>Medical Imaging Libraries</td>
+</tr>
+</table>
 ---
 
 ## 🔬 Featured Projects

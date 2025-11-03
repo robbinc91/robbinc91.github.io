@@ -4,18 +4,12 @@ description: AI Medical Imaging & 3D Data Processing Specialist
 show_downloads: false
 github:
   is_project_page: false
-  repository_url: https://github.com/robbinc91/robbinc91.github.io
 
-# Custom CSS for the portfolio
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
+# Enable custom CSS
+include:
+  - assets/css/style.css
 
-# Optional: Add Google Analytics if you have it
-# google_analytics: UA-XXXXX-Y
-
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+# Custom variables
+portfoliio:
+  name: "Robin"
+  tagline: "AI Medical Imaging & 3D Data Processing Specialist"

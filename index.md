@@ -1,3 +1,10 @@
+---
+layout: default
+title: Robin's Portfolio
+description: AI Medical Imaging & 3D Data Processing Specialist
+---
+
+
 # Robin's Portfolio
 
 Welcome to my technical portfolio. I am a developer and researcher with a specialized focus on **medical imaging, artificial intelligence, and 3D data processing**. My work primarily involves building deep learning models for brain MRI analysis, tissue segmentation, and 3D visualization.
@@ -61,60 +68,3 @@ Welcome to my technical portfolio. I am a developer and researcher with a specia
 
 *This portfolio is continuously updated with new projects and contributions to the field of medical AI.*
 
-<style>
-body {
-  background-color: #ffffff;
-  color: #333333;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #0366d6;
-  border-bottom: 1px solid #e1e4e8;
-  padding-bottom: 5px;
-}
-
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #005cc5;
-  text-decoration: underline;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: #f6f8fa;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-th {
-  background-color: #0366d6;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-td, th {
-  border: 1px solid #e1e4e8;
-  padding: 12px;
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: #fafbfc;
-}
-
-.projects-grid table {
-  box-shadow: 0 2px 4px rgba(3, 102, 214, 0.1);
-}
-
-.projects-grid tr:hover {
-  background-color: #e3f2fd;
-  transition: background-color 0.2s ease;
-}
-</style>

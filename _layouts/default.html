@@ -1,64 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    {% seo %}
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Fallback to the Minimal theme style -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+</head>
+
 <body>
-  <div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar" id="sidebar">
-      <h1 class="site-title">{{ site.title }}</h1>
-      {% if site.description %}
-        <p class="site-description">{{ site.description }}</p>
-      {% endif %}
-      <nav class="nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="#specializations">Specializations</a>
-        <a href="#projects">Projects</a>
-        <a href="#stack">Stack</a>
-        <a href="#stats">GitHub Stats</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </aside>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <h1 class="site-title">{{ site.title }}</h1>
+            {% if site.description %}
+            <p class="site-description">{{ site.description }}</p>
+            {% endif %}
+            <nav class="nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="#specializations">Specializations</a>
+                <a href="#projects">Projects</a>
+                <a href="#stack">Stack</a>
+                <a href="#stats">GitHub Stats</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </aside>
 
-    <!-- Main content -->
-    <main class="content">
-      <!-- Hamburger for mobile -->
-      <button class="hamburger" id="hamburger">☰</button>
-      {{ content }}
-      <footer class="site-footer">
-        <p>© {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-      </footer>
-    </main>
-  </div>
+        <!-- Main content -->
+        <main class="content">
+            <!-- Hamburger for mobile -->
+            <button class="hamburger" id="hamburger">☰</button>
+            {{ content }}
+            <footer class="site-footer">
+                <p>© {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
 
-  <!-- Theme Toggle -->
-  <button class="theme-toggle" id="theme-toggle">🌙</button>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle">🌙</button>
 
-  <script>
-    // Dark Mode Toggle
-    const toggleButton = document.getElementById('theme-toggle');
-    const currentTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    <script>
+        // Dark Mode Toggle
+        const toggleButton = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    if (currentTheme === 'dark' || (!currentTheme && prefersDark)) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      toggleButton.textContent = '☀️';
-    }
+        if (currentTheme === 'dark' || (!currentTheme && prefersDark)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            toggleButton.textContent = '☀️';
+        }
 
-    toggleButton.addEventListener('click', () => {
-      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-      if (isDark) {
-        document.documentElement.removeAttribute('data-theme');
-        localStorage.setItem('theme', 'light');
-        toggleButton.textContent = '🌙';
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-        toggleButton.textContent = '☀️';
-      }
-    });
+        toggleButton.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                toggleButton.textContent = '🌙';
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                toggleButton.textContent = '☀️';
+            }
+        });
 
-    // Sidebar toggle for mobile
-    const sidebar = document.getElementById('sidebar');
-    const hamburger = document.getElementById('hamburger');
-    hamburger.addEventListener('click', () => {
-      sidebar.classList.toggle('open');
-    });
-  </script>
+        // Sidebar toggle for mobile
+        const sidebar = document.getElementById('sidebar');
+        const hamburger = document.getElementById('hamburger');
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
 </body>
+
+
+
+</html>

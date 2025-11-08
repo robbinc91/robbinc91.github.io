@@ -1,124 +1,189 @@
-/* === Portfolio Site Styling === */
+/* === Robin Cabeza Ruiz Portfolio === */
 
-/* Global */
+/* --- Variables for Light & Dark Themes --- */
+:root {
+    --bg-color: #fafbfc;
+    --text-color: #1a1a1a;
+    --accent-color: #0366d6;
+    --heading-color: #0c3c78;
+    --table-bg: #fff;
+    --table-border: #e1e4e8;
+    --table-head-bg: #f5f7fa;
+    --btn-bg: var(--accent-color);
+    --btn-text: #fff;
+    --btn-hover-bg: #024d9a;
+}
+
+[data-theme="dark"] {
+    --bg-color: #0e1117;
+    --text-color: #e6edf3;
+    --accent-color: #58a6ff;
+    --heading-color: #58a6ff;
+    --table-bg: #161b22;
+    --table-border: #30363d;
+    --table-head-bg: #21262d;
+    --btn-bg: #238636;
+    --btn-text: #fff;
+    --btn-hover-bg: #2ea043;
+}
+
+/* --- Global Styles --- */
 body {
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
     line-height: 1.6;
-    color: #1a1a1a;
-    background: #fafbfc;
+    transition: background 0.3s, color 0.3s;
     margin: 0;
     padding: 0 1.5rem;
 }
 
-/* Headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Poppins", "Segoe UI", sans-serif;
-    color: #0c3c78;
+    color: var(--heading-color);
     margin-top: 1.6em;
     text-align: center;
 }
+
 h1 {
     font-size: 2.2em;
     margin-top: 1em;
 }
+
 h2 {
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid var(--table-border);
     display: inline-block;
     padding-bottom: 0.2em;
 }
 
-/* Tables */
+/* --- Tables --- */
 table {
     border-collapse: collapse;
     width: 100%;
     margin: 1.5em 0;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background: var(--table-bg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     overflow: hidden;
 }
-th, td {
-    border: 1px solid #e1e4e8;
+
+th,
+td {
+    border: 1px solid var(--table-border);
     padding: 10px 14px;
     text-align: left;
 }
+
 th {
-    background-color: #f5f7fa;
-    color: #003366;
+    background-color: var(--table-head-bg);
     font-weight: 600;
 }
 
-/* Status tags */
+/* --- Status Tags --- */
 .status-active {
-    background: #d4edda;
-    color: #155724;
-    padding: 3px 8px;
-    border-radius: 5px;
-    font-size: 0.8em;
-    font-weight: 600;
-}
-.status-research {
-    background: #fff3cd;
-    color: #856404;
+    background: #19875433;
+    color: #198754;
     padding: 3px 8px;
     border-radius: 5px;
     font-size: 0.8em;
     font-weight: 600;
 }
 
-/* Contact buttons */
+.status-research {
+    background: #ffc10733;
+    color: #d39e00;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+/* --- Contact Section --- */
 .contact-section {
     margin-top: 1.5em;
 }
+
 .contact-btn {
     display: inline-block;
     margin: 6px 8px;
     padding: 10px 16px;
     border-radius: 6px;
-    background: #0366d6;
-    color: #fff !important;
+    background: var(--btn-bg);
+    color: var(--btn-text) !important;
     text-decoration: none;
     font-weight: 600;
     transition: background 0.2s ease, transform 0.2s ease;
 }
+
 .contact-btn:hover {
-    background: #024d9a;
+    background: var(--btn-hover-bg);
     transform: translateY(-2px);
 }
 
-/* Footer */
-.footer-quote {
-    margin-top: 3em;
-    color: #444;
-    font-size: 0.95em;
-    text-align: center;
+/* --- Dark Mode Toggle Button --- */
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    z-index: 999;
 }
 
-/* Centered images and responsive scaling */
+.theme-toggle:hover {
+    background: var(--btn-hover-bg);
+    transform: scale(1.05);
+}
+
+/* --- Footer --- */
+.footer-quote {
+    margin-top: 3em;
+    color: var(--text-color);
+    font-size: 0.95em;
+    text-align: center;
+    opacity: 0.9;
+}
+
+/* --- Images --- */
 img {
     margin: 4px;
     vertical-align: middle;
     border-radius: 4px;
 }
+
 p[align="center"] img {
     max-width: 100%;
     height: auto;
 }
 
-/* Mobile-friendly layout */
+/* --- Responsive --- */
 @media (max-width: 768px) {
     body {
         padding: 0 0.8rem;
     }
+
     h1 {
         font-size: 1.8em;
     }
+
     h2 {
         font-size: 1.4em;
     }
-    table, th, td {
+
+    table,
+    th,
+    td {
         font-size: 0.9em;
     }
+
     .contact-btn {
         display: block;
         margin: 8px auto;

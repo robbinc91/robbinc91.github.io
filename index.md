@@ -4,7 +4,7 @@ title: Robin's Portfolio
 description: AI Medical Imaging & 3D Data Processing Specialist
 ---
 
-<section id="about">
+<section id="about" markdown="1">
 <h1>👋 Welcome</h1>
 
 **AI Medical Imaging | 3D Data Processing | Neuroscience Research**
@@ -17,22 +17,22 @@ My work focuses on leveraging artificial intelligence to **advance healthcare an
 
 ---
 
-<section id="specializations">
-<h2>🎯 Technical Specializations</h2>
+<section id="specializations" markdown="1">
+## 🎯 Technical Specializations
 
 | **Medical Imaging & AI** | **3D Data Processing** | **Tools & Technologies** |
 | :--- | :--- | :--- |
-| 🧠 Brain MRI Processing | 📊 3D Convolutional Networks | 🐍 Python & PyTorch |
-| 🎯 Tissue Segmentation | ☁️ Point Cloud Processing | 🔥 TensorFlow & Keras |
-| 📈 Disease Classification | 🔷 Mesh Processing & Analysis | 📦 Docker & ONNX |
-| 🔬 Research & Development | 🎮 3D Visualization | 🏥 Medical Imaging Libraries |
+| 🧠 **Brain MRI Processing** | 📊 **3D Convolutional Networks** | 🐍 **Python & PyTorch** |
+| 🎯 **Tissue Segmentation** | ☁️ **Point Cloud Processing** | 🔥 **TensorFlow & Keras** |
+| 📈 **Disease Classification** | 🔷 **Mesh Processing & Analysis** | 📦 **Docker & ONNX** |
+| 🔬 **Research & Development** | 🎮 **3D Visualization** | 🏥 **Medical Imaging Libraries** |
 
 </section>
 
 ---
 
-<section id="projects">
-<h2>🚀 Featured Projects</h2>
+<section id="projects" markdown="1">
+## 🚀 Featured Projects
 
 ### 🧠 [MIPAIM-UNET](https://github.com/robbinc91/mipaim_unet)
 Advanced 3D UNet architectures for precise **brain MRI segmentation** with multiple clinical applications.
@@ -40,7 +40,7 @@ Advanced 3D UNet architectures for precise **brain MRI segmentation** with multi
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
-<span style="background: #d4edda; color: #155724; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Active</span>
+<span class="status-active">Active</span>
 
 ---
 
@@ -50,7 +50,7 @@ Comparison of **traditional UNet vs Quaternion-based UNet** for enhanced medical
 <img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
 <img src="https://img.shields.io/badge/Research-8B008B" alt="Research">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
-<span style="background: #fff3cd; color: #856404; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Research</span>
+<span class="status-research">Research</span>
 
 ---
 
@@ -60,14 +60,14 @@ Comprehensive toolkit for **neuroscience deep learning applications** — includ
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
 <img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy">
 <img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX">
-<span style="background: #d4edda; color: #155724; padding: 2px 6px; border-radius: 3px; font-size: 0.8em;">Active</span>
+<span class="status-active">Active</span>
 
 </section>
 
 ---
 
-<section id="stack">
-<h2>🛠️ Technical Stack</h2>
+<section id="stack" markdown="1">
+## 🛠️ Technical Stack
 
 **🤖 Deep Learning:**  
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" style="height: 20px;">
@@ -96,8 +96,8 @@ Comprehensive toolkit for **neuroscience deep learning applications** — includ
 
 ---
 
-<section id="stats">
-<h2>📈 GitHub Statistics</h2>
+<section id="stats" markdown="1">
+## 📈 GitHub Statistics
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=robbinc91&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats">
@@ -107,8 +107,8 @@ Comprehensive toolkit for **neuroscience deep learning applications** — includ
 
 ---
 
-<section id="contact">
-<h2>📫 Contact</h2>
+<section id="contact" markdown="1">
+## 📫 Contact
 
 <p align="center">
 <a href="https://github.com/robbinc91"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" style="height: 28px;"></a>

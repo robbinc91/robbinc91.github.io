@@ -40,7 +40,6 @@ Advanced 3D UNet architectures for precise **brain MRI segmentation** with multi
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
-<span class="status-active">Active</span>
 
 ---
 
@@ -50,7 +49,6 @@ Comparison of **traditional UNet vs Quaternion-based UNet** for enhanced medical
 <img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
 <img src="https://img.shields.io/badge/Research-8B008B" alt="Research">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
-<span class="status-research">Research</span>
 
 ---
 
@@ -60,7 +58,16 @@ Comprehensive toolkit for **neuroscience deep learning applications** — includ
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
 <img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy">
 <img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX">
-<span class="status-active">Active</span>
+
+---
+
+### 🧩 [Advanced 3D MRI Viewer](https://github.com/robbinc91/advanced-3d-mri-viewer)
+An advanced 3D MRI Viewer
+
+<img src="https://img.shields.io/badge/PyQt5-41CD52?logo=qt&logoColor=white" alt="PyQt5">
+<img src="https://img.shields.io/badge/VTK-8E8E8E?logo=vtk&logoColor=white" alt="VTK">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/NiBabel-FF6F00?logo=python&logoColor=white" alt="NiBabel">
 
 </section>
 

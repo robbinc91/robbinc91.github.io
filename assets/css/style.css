@@ -148,3 +148,51 @@ a:hover {
         right: 15px;
     }
 }
+
+/* Hamburger button */
+.hamburger {
+    display: none;
+    /* hidden on desktop */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 28px;
+    background: var(--accent-color);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    z-index: 1001;
+    cursor: pointer;
+}
+
+/* Mobile sidebar behavior */
+@media (max-width: 800px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -270px;
+        /* hide by default */
+        width: 250px;
+        height: 100%;
+        padding: 2rem 1rem;
+        background: var(--section-bg);
+        border-right: 1px solid var(--border-color);
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+
+    .sidebar.open {
+        left: 0;
+        /* show when open */
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 2rem 1rem;
+    }
+}

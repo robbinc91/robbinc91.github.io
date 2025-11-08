@@ -1,45 +1,127 @@
-/* Minimal enhancements for the Jekyll minimal theme */
+/* === Portfolio Site Styling === */
 
-/* Center images and badges */
-img {
-    margin: 2px;
-    vertical-align: middle;
+/* Global */
+body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #fafbfc;
+    margin: 0;
+    padding: 0 1.5rem;
 }
 
-/* Style for project sections */
-h3 {
-    margin-top: 2em;
-    border-bottom: 1px solid #eaecef;
-    padding-bottom: 0.3em;
+/* Headings */
+h1, h2, h3 {
+    font-family: "Poppins", "Segoe UI", sans-serif;
+    color: #0c3c78;
+    margin-top: 1.6em;
+    text-align: center;
+}
+h1 {
+    font-size: 2.2em;
+    margin-top: 1em;
+}
+h2 {
+    border-bottom: 2px solid #e0e0e0;
+    display: inline-block;
+    padding-bottom: 0.2em;
 }
 
-/* Better table styling */
+/* Tables */
 table {
     border-collapse: collapse;
     width: 100%;
-    margin: 1em 0;
+    margin: 1.5em 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
 }
-
 th, td {
-    border: 1px solid #dfe2e5;
-    padding: 12px;
+    border: 1px solid #e1e4e8;
+    padding: 10px 14px;
     text-align: left;
 }
-
 th {
-    background-color: #f6f8fa;
+    background-color: #f5f7fa;
+    color: #003366;
     font-weight: 600;
 }
 
-/* Center alignment for stats */
-p[align="center"] {
+/* Status tags */
+.status-active {
+    background: #d4edda;
+    color: #155724;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.status-research {
+    background: #fff3cd;
+    color: #856404;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+/* Contact buttons */
+.contact-section {
+    margin-top: 1.5em;
+}
+.contact-btn {
+    display: inline-block;
+    margin: 6px 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: #0366d6;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.contact-btn:hover {
+    background: #024d9a;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+.footer-quote {
+    margin-top: 3em;
+    color: #444;
+    font-size: 0.95em;
     text-align: center;
 }
 
-/* Responsive badges */
+/* Centered images and responsive scaling */
+img {
+    margin: 4px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+p[align="center"] img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile-friendly layout */
 @media (max-width: 768px) {
-    img {
-        max-width: 100%;
-        height: auto;
+    body {
+        padding: 0 0.8rem;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    table, th, td {
+        font-size: 0.9em;
+    }
+    .contact-btn {
+        display: block;
+        margin: 8px auto;
+        text-align: center;
     }
 }

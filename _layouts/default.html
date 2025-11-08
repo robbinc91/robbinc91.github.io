@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    {% seo %}
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Fallback to the Minimal theme style -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+</head>
+
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        {% if site.description %}
+        <p><em>{{ site.description }}</em></p>
+        {% endif %}
+    </header>
+
+    <main class="page-content">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <p>© {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle">🌙 Dark Mode</button>
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (currentTheme === 'dark' || (!currentTheme && prefersDark)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            toggleButton.textContent = '☀️ Light Mode';
+        }
+
+        toggleButton.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                toggleButton.textContent = '🌙 Dark Mode';
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                toggleButton.textContent = '☀️ Light Mode';
+            }
+        });
+    </script>
+</body>
+
+</html>

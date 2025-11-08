@@ -1,13 +1,20 @@
-theme: jekyll-theme-minimal
-title: Robin's Portfolio
-description: AI Medical Imaging & 3D Data Processing Specialist
-show_downloads: false
+title: "Robin's Portfolio"
+description: "AI Medical Imaging & 3D Data Processing Specialist"
 
-# Custom CSS
+# Keep GitHub Pages compatibility
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
-# Add custom CSS
+# Include custom files
 include:
   - assets/css/style.css
+  - _layouts/default.html
+
+# Optional: Hide download links from the default theme
+show_downloads: false
+
+# Markdown rendering
+markdown: kramdown
+highlighter: rouge

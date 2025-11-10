@@ -22,10 +22,10 @@ My work focuses on leveraging artificial intelligence to **advance healthcare an
 
 | **Medical Imaging & AI** | **3D Data Processing** | **Tools & Technologies** |
 | :--- | :--- | :--- |
-| 🧠 **Brain MRI Processing** | 📊 **3D Convolutional Networks** | 🐍 **Python & PyTorch** |
-| 🎯 **Tissue Segmentation** | ☁️ **Point Cloud Processing** | 🔥 **TensorFlow & Keras** |
-| 📈 **Disease Classification** | 🔷 **Mesh Processing & Analysis** | 📦 **Docker & ONNX** |
-| 🔬 **Research & Development** | 🎮 **3D Visualization** | 🏥 **Medical Imaging Libraries** |
+| **Brain MRI Processing** | **3D Convolutional Networks** | **Python & PyTorch** |
+| **Tissue Segmentation** | **Point Cloud Processing** | **TensorFlow & Keras** |
+| **Disease Classification** | **Mesh Processing & Analysis** | **Docker** |
+| **Research & Development** | **3D Visualization** | **Medical Imaging Libraries** |
 
 </section>
 
@@ -34,40 +34,67 @@ My work focuses on leveraging artificial intelligence to **advance healthcare an
 <section id="projects" markdown="1">
 ## 🚀 Featured Projects
 
-### 🧠 [MIPAIM-UNET](https://github.com/robbinc91/mipaim_unet)
+### [MIPAIM-UNET](https://github.com/robbinc91/mipaim_unet)
 Advanced 3D UNet architectures for precise **brain MRI segmentation** with multiple clinical applications.
 
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&
+logoColor=white" alt="Keras">
+<img src="https://img.shields.io/badge/Research-8B008B" alt="Research">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy" style="height: 20px;">
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy" style="height: 20px;">
+<img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" style="height: 20px;">
 
 ---
 
-### ⚛️ [CNN vs. QCNN](https://github.com/robbinc91/cnn_vs_qcnn_medical_imaging)
+### [CNN vs. QCNN](https://github.com/robbinc91/cnn_vs_qcnn_medical_imaging)
 Comparison of **traditional UNet vs Quaternion-based UNet** for enhanced medical image segmentation.
 
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" style="height: 20px;">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
 <img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
 <img src="https://img.shields.io/badge/Research-8B008B" alt="Research">
 <img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy" style="height: 20px;">
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy" style="height: 20px;">
+<img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" style="height: 20px;">
+<img src="https://img.shields.io/badge/QCNN-150458?logo=qcnn&logoColor=white" alt="QCNN" style="height: 20px;">
 
 ---
 
-### 🧩 [Neuro Code Utils](https://github.com/robbinc91/neuro_code_utils)
+### [Neuro Code Utils](https://github.com/robbinc91/neuro_code_utils)
 Comprehensive toolkit for **neuroscience deep learning applications** — including medical image preprocessing, model conversion, and analysis.
 
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" style="height: 20px;">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
 <img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy">
 <img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX">
 
 ---
 
-### 🧩 [Advanced 3D MRI Viewer](https://github.com/robbinc91/advanced-3d-mri-viewer)
+### [Advanced 3D MRI Viewer](https://github.com/robbinc91/advanced-3d-mri-viewer)
 An advanced 3D MRI Viewer
 
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" style="height: 20px;">
 <img src="https://img.shields.io/badge/PyQt5-41CD52?logo=qt&logoColor=white" alt="PyQt5">
 <img src="https://img.shields.io/badge/VTK-8E8E8E?logo=vtk&logoColor=white" alt="VTK">
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy">
 <img src="https://img.shields.io/badge/NiBabel-FF6F00?logo=python&logoColor=white" alt="NiBabel">
+<img src="https://img.shields.io/badge/PyROBEX-DC143C" alt="PyROBEX" style="height: 20px;">
+<img src="https://img.shields.io/badge/SciKit--Image-F37626" alt="SciKit-Image" style="height: 20px;">
+
+
+---
+
+### [Rust learning journey](https://github.com/robbinc91/sololearn-rust)
+Rust Learning Journey
+
+![Rust](https://img.shields.io/badge/learning-Rust-orange?style=for-the-badge&logo=rust)
+<img src="https://img.shields.io/badge/Rust-FF6F00?logo=rust&logoColor=white" alt="Rust">
 
 </section>
 

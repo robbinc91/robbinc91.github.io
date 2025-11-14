@@ -91,8 +91,8 @@ An advanced 3D MRI Viewer
 ---
 
 
-### [CE CAD/CAM info website](https://github.com/robbinc91/cecadcam-info)
-Simple website  holding information about the Suty Center CAD/CAM, in the Univresity of Holguín, Cuba. You can checkit [here](https://cecadcam-uho.netlify.app/).
+### [CE CAD/CAM info website](https://github.com/robbinc91/cecadcam-info) ([Preview here](https://cecadcam-uho.netlify.app/))
+Simple website  holding information about the Suty Center CAD/CAM, in the Univresity of Holguín, Cuba.
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">

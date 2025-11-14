@@ -77,7 +77,7 @@ Comprehensive toolkit for **neuroscience deep learning applications** — includ
 ---
 
 ### [Advanced 3D MRI Viewer](https://github.com/robbinc91/advanced-3d-mri-viewer)
-An advanced 3D MRI Viewer
+Interactive 3D visualization tool for MRI data with advanced segmentation capabilities and real-time rendering.
 
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" style="height: 20px;">
 <img src="https://img.shields.io/badge/PyQt5-41CD52?logo=qt&logoColor=white" alt="PyQt5">
@@ -92,7 +92,7 @@ An advanced 3D MRI Viewer
 
 
 ### [CE CAD/CAM info website](https://github.com/robbinc91/cecadcam-info) ([Preview here](https://cecadcam-uho.netlify.app/))
-Simple website  holding information about the Suty Center CAD/CAM, in the Univresity of Holguín, Cuba.
+Simple website holding information about the Suty Center CAD/CAM, in the University of Holguín, Cuba.
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
@@ -115,9 +115,9 @@ My accepted solutions for the competitive programming problems from the Caribbea
 ### [CRF and HMM for NLP](https://github.com/robbinc91/himm-crf-nlp-text-segmentation)
 A very old implementation of Hidden Markov Models (HMM) and Conditional Random Fields (CRF) for multilingual text segmentation
 
-<img src="https://img.shields.io/badge/NLP-4A90E2?logo=natural-language-processing&logoColor=white" alt="NLP">
-<img src="https://img.shields.io/badge/HMM-8E44AD?logo=markdown&logoColor=white" alt="HMM">
-<img src="https://img.shields.io/badge/CRF-FF6B6B?logo=conditional-random-fields&logoColor=white" alt="CRF">
+<img src="https://img.shields.io/badge/NLP-4A90E2" alt="NLP">
+<img src="https://img.shields.io/badge/HMM-8E44AD" alt="HMM">
+<img src="https://img.shields.io/badge/CRF-FF6B6B" alt="CRF">
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy">
 
 
@@ -140,19 +140,38 @@ Rust Learning Journey
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" style="height: 20px;">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow" style="height: 20px;">
 <img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" alt="Keras" style="height: 20px;">
-<img src="https://img.shields.io/badge/ONNX-005CED?logo=onnx&logoColor=white" alt="ONNX" style="height: 20px;">
+<img src="https://img.shields.io/badge/3D_CNN-4A90E2" alt="3D CNN" style="height: 20px;">
+<img src="https://img.shields.io/badge/QCNN-150458" alt="QCNN" style="height: 20px;">
 
 **🏥 Medical Imaging:**  
-<img src="https://img.shields.io/badge/NiBabel-6A0DAD" alt="NiBabel" style="height: 20px;">
-<img src="https://img.shields.io/badge/ANTsPy-0077B6" alt="ANTsPy" style="height: 20px;">
-<img src="https://img.shields.io/badge/PyROBEX-DC143C" alt="PyROBEX" style="height: 20px;">
-<img src="https://img.shields.io/badge/SciKit--Image-F37626" alt="SciKit-Image" style="height: 20px;">
+<img src="https://img.shields.io/badge/NiBabel-2E8B57?logo=python&logoColor=white" alt="NiBabel" style="height: 20px;">
+<img src="https://img.shields.io/badge/ANTsPy-0077B6?logo=python&logoColor=white" alt="ANTsPy" style="height: 20px;">
+<img src="https://img.shields.io/badge/PyROBEX-DC143C?logo=python&logoColor=white" alt="PyROBEX" style="height: 20px;">
+<img src="https://img.shields.io/badge/SciKit--Image-F37626?logo=scikit-image&logoColor=white" alt="SciKit-Image" style="height: 20px;">
+<img src="https://img.shields.io/badge/VTK-8E8E8E?logo=vtk&logoColor=white" alt="VTK" style="height: 20px;">
+<img src="https://img.shields.io/badge/PyQt5-41CD52?logo=qt&logoColor=white" alt="PyQt5" style="height: 20px;">
 
 **🐍 Core Programming:**  
 <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" style="height: 20px;">
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy" style="height: 20px;">
 <img src="https://img.shields.io/badge/SciPy-8CAAE6?logo=scipy&logoColor=white" alt="SciPy" style="height: 20px;">
 <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas" style="height: 20px;">
+
+**💻 Programming Languages:**  
+<img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white" alt="C++" style="height: 20px;">
+<img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black" alt="C" style="height: 20px;">
+<img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" alt="Java" style="height: 20px;">
+
+**🌐 Web Development:**  
+<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" style="height: 20px;">
+<img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" style="height: 20px;">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" style="height: 20px;">
+
+**🧠 NLP & Machine Learning:**  
+<img src="https://img.shields.io/badge/NLP-4A90E2" alt="NLP" style="height: 20px;">
+<img src="https://img.shields.io/badge/HMM-8E44AD" alt="HMM" style="height: 20px;">
+<img src="https://img.shields.io/badge/CRF-FF6B6B" alt="CRF" style="height: 20px;">
+<img src="https://img.shields.io/badge/Research-8B008B" alt="Research" style="height: 20px;">
 
 **🚀 Infrastructure:**  
 <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" style="height: 20px;">

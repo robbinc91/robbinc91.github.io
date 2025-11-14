@@ -93,10 +93,21 @@ An advanced 3D MRI Viewer
 ### [COJ solutions](https://github.com/robbinc91/coj-solutions)
 My accepted solutions for the competitive programming problems from the Caribbean Online Judge (COJ)
 
-<img src="https://img.shields.io/badge/CPP-FF6F00?logo=cpp&logoColor=white" alt="C++">
-<img src="https://img.shields.io/badge/C-FF6F00?logo=c&logoColor=white" alt="C">
-<img src="https://img.shields.io/badge/Python-FF6F00?logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Java-FF6F00?logo=java&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white" alt="C++">
+<img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black" alt="C">
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" alt="Java">
+
+
+---
+
+### [CRF and HMM for NLP](https://github.com/robbinc91/himm-crf-nlp-text-segmentation)
+A very old implementation of Hidden Markov Models (HMM) and Conditional Random Fields (CRF) for multilingual text segmentation
+
+<img src="https://img.shields.io/badge/NLP-4A90E2?logo=natural-language-processing&logoColor=white" alt="NLP">
+<img src="https://img.shields.io/badge/HMM-8E44AD?logo=markdown&logoColor=white" alt="HMM">
+<img src="https://img.shields.io/badge/CRF-FF6B6B?logo=conditional-random-fields&logoColor=white" alt="CRF">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white" alt="NumPy">
 
 
 ---

@@ -98,7 +98,6 @@ My accepted solutions for the competitive programming problems from the Caribbea
 <img src="https://img.shields.io/badge/Python-FF6F00?logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/Java-FF6F00?logo=java&logoColor=white" alt="Java">
 
-</section>
 
 ---
 

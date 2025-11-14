@@ -90,6 +90,18 @@ An advanced 3D MRI Viewer
 
 ---
 
+### [COJ solutions](https://github.com/robbinc91/coj-solutions)
+My accepted solutions for the competitive programming problems from the Caribbean Online Judge (COJ)
+
+<img src="https://img.shields.io/badge/CPP-FF6F00?logo=cpp&logoColor=white" alt="C++">
+<img src="https://img.shields.io/badge/C-FF6F00?logo=c&logoColor=white" alt="C">
+<img src="https://img.shields.io/badge/Python-FF6F00?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Java-FF6F00?logo=java&logoColor=white" alt="Java">
+
+</section>
+
+---
+
 ### [Rust learning journey](https://github.com/robbinc91/sololearn-rust)
 Rust Learning Journey
 

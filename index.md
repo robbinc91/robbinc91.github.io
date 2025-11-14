@@ -131,7 +131,33 @@ Rust Learning Journey
 
 </section>
 
+
 ---
+
+
+<section id="publications" markdown="1">
+## 📚 Selected Publications
+
+- Cabeza-Ruiz, R., Velázquez-Pérez, L., Pérez-Rodríguez, R. (2021). **Convolutional Neural Networks as Support Tools for Spinocerebellar Ataxia Detection from Magnetic Resonances**. In: Hernández Heredia, Y., Milián Núñez, V., Ruiz Shulcloper, J. (eds) Progress in Artificial Intelligence and Pattern Recognition. IWAIPR 2021. Lecture Notes in Computer Science(), vol 13055. Springer, Cham. 
+[![DOI:10.1007/978-3-030-89691-1_11](https://zenodo.org/badge/DOI/10.1007/978-3-030-89691-1_11.svg)](https://doi.org/10.1007/978-3-030-89691-1_11)
+
+- Cabeza-Ruiz, R., Velázquez-Pérez, L., Linares-Barranco, A., & Pérez-Rodríguez, R. (2022). **Convolutional Neural Networks for Segmenting Cerebellar Fissures from Magnetic Resonance Imaging**. Sensors, 22(4), 1345. 
+[![DOI:10.3390/s22041345](https://zenodo.org/badge/DOI/10.3390/s22041345.svg)](https://doi.org/10.3390/s22041345)
+
+- Cabeza-Ruiz, R., Velázquez-Pérez, L., Pérez-Rodríguez, R. et al. **ConvNets for automatic detection of polyglutamine SCAs from brain MRIs: state of the art applications**. Med Biol Eng Comput 61, 1–24 (2023). 
+[![DOI:10.1007/s11517-022-02714-w](https://zenodo.org/badge/DOI/10.1007/s11517-022-02714-w.svg)](https://doi.org/10.1007/s11517-022-02714-w)
+
+- Cabeza-Ruiz, R., Velázquez-Pérez, L., Linares-Barranco, A., & Pérez-Rodríguez, R. (2024, October). **Automated Thalamic Nuclei Segmentation from Brain T1-W MRI Using Convolutional Neural Networks**. In Workshop in R&D+ i & International Workshop on STEM of EPS (pp. 422-431). Cham: Springer Nature Switzerland.
+[![DOI:10.1007/978-3-031-99987-1_43](https://zenodo.org/badge/DOI/10.1007/978-3-031-99987-1_43.svg)](https://doi.org/10.1007/978-3-031-99987-1_43)
+
+- Cabeza-Ruiz, R., Velázquez-Pérez, L., González-Dalmau, E., Linares-Barranco, A., & Pérez-Rodríguez, R. (2025). **Deep Learning-Based Assessment of Brainstem Volume Changes in Spinocerebellar Ataxia Type 2 (SCA2): A Study on Patients and Preclinical Subjects**. Sensors, 25(19), 6009.
+[![DOI:10.3390/s25196009](https://zenodo.org/badge/DOI/10.3390/s25196009.svg)](https://doi.org/10.3390/s25196009)
+
+</section>
+
+
+---
+
 
 <section id="stack" markdown="1">
 ## 🛠️ Technical Stack

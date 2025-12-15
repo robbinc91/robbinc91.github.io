@@ -100,27 +100,33 @@ description: AI Medical Imaging & 3D Data Processing Specialist
     <h2>📚 Selected Publications</h2>
     
     <div class="pub-item">
-        <div class="pub-title">Deep Learning-Based Assessment of Brainstem Volume Changes in Spinocerebellar Ataxia Type 2</div>
+        <div class="pub-title">Deep Learning-Based Assessment of Brainstem Volume Changes in Spinocerebellar Ataxia Type 2 (SCA2): A Study on Patients and Preclinical Subjects</div>
         <div class="pub-journal">Sensors, 25(19), 6009 (2025)</div>
         <a href="https://doi.org/10.3390/s25196009"><img src="https://zenodo.org/badge/DOI/10.3390/s25196009.svg" alt="DOI"></a>
     </div>
 
     <div class="pub-item">
-        <div class="pub-title">Automated Thalamic Nuclei Segmentation from Brain T1-W MRI Using CNNs</div>
+        <div class="pub-title">Automated Thalamic Nuclei Segmentation from Brain T1-W MRI Using Convolutional Neural Networks</div>
         <div class="pub-journal">Workshop in R&D+i, Springer Nature (2024)</div>
         <a href="https://doi.org/10.1007/978-3-031-99987-1_43"><img src="https://zenodo.org/badge/DOI/10.1007/978-3-031-99987-1_43.svg" alt="DOI"></a>
     </div>
 
     <div class="pub-item">
-        <div class="pub-title">ConvNets for automatic detection of polyglutamine SCAs from brain MRIs</div>
+        <div class="pub-title">ConvNets for automatic detection of polyglutamine SCAs from brain MRIs: state of the art applications</div>
         <div class="pub-journal">Med Biol Eng Comput 61, 1–24 (2023)</div>
         <a href="https://doi.org/10.1007/s11517-022-02714-w"><img src="https://zenodo.org/badge/DOI/10.1007/s11517-022-02714-w.svg" alt="DOI"></a>
     </div>
 
     <div class="pub-item">
-        <div class="pub-title">Convolutional Neural Networks for Segmenting Cerebellar Fissures</div>
+        <div class="pub-title">Convolutional Neural Networks for Segmenting Cerebellar Fissures from Magnetic Resonance Imaging</div>
         <div class="pub-journal">Sensors, 22(4), 1345 (2022)</div>
         <a href="https://doi.org/10.3390/s22041345"><img src="https://zenodo.org/badge/DOI/10.3390/s22041345.svg" alt="DOI"></a>
+    </div>
+
+    <div class="pub-item">
+        <div class="pub-title">Convolutional Neural Networks as Support Tools for Spinocerebellar Ataxia Detection from Magnetic Resonances</div>
+        <div class="pub-journal">Workshop in R&D+i, Springer Nature (2021)</div>
+        <a href="https://doi.org/DOI:10.1007/978-3-030-89691-1_11"><img src="https://zenodo.org/badge/DOI/DOI:10.1007/978-3-030-89691-1_11.svg" alt="DOI"></a>
     </div>
 
 </section>

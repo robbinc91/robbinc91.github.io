@@ -85,6 +85,7 @@ description: AI Medical Imaging & 3D Data Processing Specialist
         <div class="project-card">
             <div class="project-header">
                 <span class="project-title"><a href="https://github.com/robbinc91/cecadcam-info">CE CAD/CAM Info</a></span>
+                <a href="https://cecadcam-uho.netlify.app/" target="_blank" class="project-btn">Live Preview</a>
             </div>
             <p>Informational website for the Suty Center CAD/CAM at the University of Holguín.</p>
             <div class="project-tech">HTML5 • CSS3 • JavaScript</div>

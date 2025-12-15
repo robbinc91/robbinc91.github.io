@@ -339,3 +339,22 @@ a:hover {
 .badge-group img {
     height: 20px;
 }
+
+/* Button */
+.project-btn {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-left: 0.5rem;
+}
+
+.project-btn:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    text-decoration: none;
+}

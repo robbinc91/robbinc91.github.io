@@ -196,3 +196,146 @@ a:hover {
         padding: 2rem 1rem;
     }
 }
+
+/* ===== Redesign Utilities ===== */
+
+/* Intro */
+.intro-container {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 25px;
+}
+
+.intro-role {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.skill-category {
+    background: var(--section-bg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.skill-category h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.skill-list li::before {
+    content: "•";
+    color: var(--accent-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-card {
+    border: 1px dashed var(--border-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: transparent;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.project-card:hover {
+    background: rgba(0, 122, 204, 0.03);
+    border-style: solid;
+    transform: translateY(-2px);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.project-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.project-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-title a:hover {
+    color: var(--accent-color);
+}
+
+.project-tech {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.8rem;
+    font-family: monospace;
+}
+
+/* Publications */
+.pub-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--border-color);
+}
+
+.pub-title {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.pub-journal {
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Badges cleanup */
+.badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 0.5rem;
+}
+
+.badge-group img {
+    height: 20px;
+}

@@ -29,9 +29,8 @@ description: AI Medical Imaging & 3D Data Processing Specialist
             <h3>3D Data Processing</h3>
             <ul class="skill-list">
                 <li>Point Cloud Processing & Analysis</li>
-                <li>Mesh Processing (VTK)</li>
+                <li>Mesh Processing</li>
                 <li>Volumetric Rendering & Visualization</li>
-                <li>Quaternion-based Networks (QCNN)</li>
             </ul>
         </div>
         <div class="skill-category">
@@ -40,7 +39,7 @@ description: AI Medical Imaging & 3D Data Processing Specialist
                 <li><strong>Python:</strong> PyTorch, TensorFlow/Keras, NumPy, SciPy</li>
                 <li><strong>Medical:</strong> NiBabel, ANTsPy, PyROBEX</li>
                 <li><strong>Tools:</strong> Docker, Git, Linux/Bash</li>
-                <li><strong>Languages:</strong> C++, Java, Rust (Learning)</li>
+                <li><strong>Languages:</strong> Python, C++, Java, Rust (Learning)</li>
             </ul>
         </div>
     </div>
@@ -89,6 +88,30 @@ description: AI Medical Imaging & 3D Data Processing Specialist
             </div>
             <p>Informational website for the Suty Center CAD/CAM at the University of Holguín.</p>
             <div class="project-tech">HTML5 • CSS3 • JavaScript</div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <span class="project-title"><a href="https://github.com/robbinc91/coj-solutions">COJ solutions</a></span>
+            </div>
+            <p>My accepted solutions for the competitive programming problems from the Caribbean Online Judge (COJ).</p>
+            <div class="project-tech">C++ • C • Python • Java</div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <span class="project-title"><a href="https://github.com/robbinc91/himm-crf-nlp-text-segmentation">CRF and HMM for NLP</a></span>
+            </div>
+            <p>A very old implementation of Hidden Markov Models (HMM) and Conditional Random Fields (CRF) for multilingual text segmentation.</p>
+            <div class="project-tech">NLP • HMM • CRF • Python • NumPy</div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <span class="project-title"><a href="https://github.com/robbinc91/sololearn-rust">Rust learning journey</a></span>
+            </div>
+            <p>Rust Learning Journey.</p>
+            <div class="project-tech">Rust • Learning</div>
         </div>
         
     </div>

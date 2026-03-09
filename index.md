@@ -131,7 +131,7 @@ description: AI Medical Imaging & 3D Data Processing Specialist
 
     <div class="pub-item">
         <div class="pub-title">Automated Thalamic Nuclei Segmentation from Brain T1-W MRI Using Convolutional Neural Networks</div>
-        <div class="pub-journal">Workshop in R&D+i, Springer Nature (2024)</div>
+        <div class="pub-journal">A Cross-Disciplinary Exploration of STEM. STEMEPS 2024. Springer Proceedings in Materials, vol 85. Springer, Cham (2024)</div>
         <a href="https://doi.org/10.1007/978-3-031-99987-1_43"><img src="https://zenodo.org/badge/DOI/10.1007/978-3-031-99987-1_43.svg" alt="DOI"></a>
     </div>
 
@@ -149,7 +149,7 @@ description: AI Medical Imaging & 3D Data Processing Specialist
 
     <div class="pub-item">
         <div class="pub-title">Convolutional Neural Networks as Support Tools for Spinocerebellar Ataxia Detection from Magnetic Resonances</div>
-        <div class="pub-journal">Workshop in R&D+i, Springer Nature (2021)</div>
+        <div class="pub-journal">Progress in Artificial Intelligence and Pattern Recognition. IWAIPR 2021. Lecture Notes in Computer Science, vol 13055. Springer, Cham (2021)</div>
         <a href="https://doi.org/DOI:10.1007/978-3-030-89691-1_11"><img src="https://zenodo.org/badge/DOI/DOI:10.1007/978-3-030-89691-1_11.svg" alt="DOI"></a>
     </div>
 

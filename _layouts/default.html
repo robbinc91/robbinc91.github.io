@@ -8,78 +8,120 @@
 
     {% seo %}
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
-    <!-- Fallback to the Minimal theme style -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
 </head>
 
 <body>
     <div class="container">
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
-            <h1 class="site-title">{{ site.title }}</h1>
-            {% if site.description %}
-            <p class="site-description">{{ site.description }}</p>
-            {% endif %}
-            <nav class="nav">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="#specializations">Specializations</a>
-                <a href="#projects">Projects</a>
-                <a href="#stack">Stack</a>
-                <a href="#contact">Contact</a>
-            </nav>
+            <div class="sidebar-inner">
+                <h1 class="site-title">{{ site.title }}</h1>
+                {% if site.description %}
+                <p class="site-description">{{ site.description }}</p>
+                {% endif %}
+                <nav class="nav">
+                    <a href="{{ '/' | relative_url }}">Home</a>
+                    <a href="{{ '/about' | relative_url }}">About</a>
+                    <a href="{{ '/' | relative_url }}#specializations">Specializations</a>
+                    <a href="{{ '/' | relative_url }}#projects">Projects</a>
+                    <a href="{{ '/' | relative_url }}#publications">Publications</a>
+                    <a href="{{ '/' | relative_url }}#contact">Contact</a>
+                </nav>
+            </div>
         </aside>
 
         <!-- Main content -->
         <main class="content">
-            <!-- Hamburger for mobile -->
-            <button class="hamburger" id="hamburger">☰</button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             {{ content }}
             <footer class="site-footer">
-                <p>© {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+                <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
             </footer>
         </main>
     </div>
 
     <!-- Theme Toggle -->
-    <button class="theme-toggle" id="theme-toggle">🌙</button>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon-light">&#9788;</span>
+        <span class="theme-icon-dark">&#9790;</span>
+    </button>
 
     <script>
         // Dark Mode Toggle
-        const toggleButton = document.getElementById('theme-toggle');
-        const currentTheme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            const stored = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-        if (currentTheme === 'dark' || (!currentTheme && prefersDark)) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            toggleButton.textContent = '☀️';
-        }
-
-        toggleButton.addEventListener('click', () => {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            if (isDark) {
-                document.documentElement.removeAttribute('data-theme');
-                localStorage.setItem('theme', 'light');
-                toggleButton.textContent = '🌙';
-            } else {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                localStorage.setItem('theme', 'dark');
-                toggleButton.textContent = '☀️';
+            if (stored === 'dark' || (!stored && prefersDark)) {
+                html.setAttribute('data-theme', 'dark');
             }
-        });
 
-        // Sidebar toggle for mobile
-        const sidebar = document.getElementById('sidebar');
-        const hamburger = document.getElementById('hamburger');
-        hamburger.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
+            toggle.addEventListener('click', () => {
+                const isDark = html.getAttribute('data-theme') === 'dark';
+                if (isDark) {
+                    html.removeAttribute('data-theme');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    html.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+        })();
+
+        // Scroll reveal
+        document.addEventListener('DOMContentLoaded', function() {
+            const revealEls = document.querySelectorAll(
+                'section, .project-card, .pub-item, .skill-category, .intro-container'
+            );
+
+            if ('IntersectionObserver' in window) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+                revealEls.forEach(el => {
+                    el.classList.add('reveal');
+                    observer.observe(el);
+                });
+            } else {
+                revealEls.forEach(el => el.classList.add('visible'));
+            }
+
+            // Sidebar toggle for mobile
+            const sidebar = document.getElementById('sidebar');
+            const hamburger = document.getElementById('hamburger');
+            if (hamburger) {
+                hamburger.addEventListener('click', () => {
+                    sidebar.classList.toggle('open');
+                });
+                // Close sidebar on nav link click (mobile)
+                sidebar.querySelectorAll('.nav a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        sidebar.classList.remove('open');
+                    });
+                });
+            }
         });
     </script>
 </body>
-
-
 
 </html>

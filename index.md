@@ -117,7 +117,7 @@ description: AI Medical Imaging & 3D Data Processing Specialist
         
     </div>
     
-    <p style="text-align: right; margin-top: 1rem;"><a href="https://github.com/robbinc91?tab=repositories">View all projects on GitHub →</a></p>
+    <p class="more-projects"><a href="https://github.com/robbinc91?tab=repositories">View all projects on GitHub →</a></p>
 </section>
 
 <section id="publications">
@@ -157,10 +157,10 @@ description: AI Medical Imaging & 3D Data Processing Specialist
 
 <section id="contact">
     <h2>📫 Connect</h2>
-    <p style="text-align: center; margin-bottom: 2rem;">
+    <p>
         Open to collaborations in medical AI, neuroimaging research, and 3D data analysis.
     </p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <div class="contact-links">
         <a href="mailto:robbinc91@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-28a745?logo=gmail&logoColor=white&style=flat-square" alt="Email"></a>
         <a href="https://github.com/robbinc91"><img src="https://img.shields.io/badge/GitHub-robbinc91-181717?logo=github&logoColor=white&style=flat-square" alt="GitHub"></a>
         <a href="https://linkedin.com/in/robin-cabeza-ruiz-50575b113/"><img src="https://img.shields.io/badge/LinkedIn-Robin_Cabeza-0077B5?logo=linkedin&logoColor=white&style=flat-square" alt="LinkedIn"></a>

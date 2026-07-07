@@ -113,8 +113,8 @@ body {
     width: var(--sidebar-width);
     background: var(--sidebar-bg);
     border-right: 1px solid var(--sidebar-border);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     padding: 0;
     box-sizing: border-box;
     z-index: 100;
@@ -187,8 +187,6 @@ section {
     padding: 2rem;
     margin-bottom: 1.75rem;
     box-shadow: var(--card-shadow);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     transition: box-shadow var(--transition), background var(--transition), border var(--transition);
 }
 
@@ -678,8 +676,6 @@ hr {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     box-shadow: var(--card-shadow);
     transition: box-shadow var(--transition-fast);
 }
@@ -711,8 +707,8 @@ hr {
         height: 100%;
         background: var(--sidebar-bg);
         border-right: 1px solid var(--sidebar-border);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         transition: left var(--transition);
         z-index: 150;
     }

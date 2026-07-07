@@ -1,6 +1,7 @@
 title: "Robin's Portfolio"
 description: "AI, Deep Learning & Systems Specialist | Computer Scientist"
 
+theme: jekyll-theme-primer
 plugins:
   - jekyll-seo-tag
 
